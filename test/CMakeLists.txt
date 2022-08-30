@@ -13,3 +13,4 @@ endfunction(mosqdb_test)
 #add_test(NAME demo_test COMMAND demo_test)
 
 mosqdb_test(demo_test.cpp solution)
+mosqdb_test(slice_test.cpp mosqdb)
